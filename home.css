@@ -1,15 +1,26 @@
 body {
   margin: 0;
+  background-color: #000;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(163, 212, 255);
 }
 
 .headline {
   display: flex;
   height: 100vh;
+  background: url(background-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.headline::after {
+  background-color: red;
 }
 
 .headline-content {
