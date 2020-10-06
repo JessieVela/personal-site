@@ -90,8 +90,12 @@ a {
 }
 
 .project img {
-  width: auto;
-  height: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {

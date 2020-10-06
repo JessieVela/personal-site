@@ -11,7 +11,7 @@
 <body>
   <div class="headline">
     <div class="headline-content">
-      <div class="profile-image"><img src="profile_pic.jpg" alt="">
+      <div class="profile-image"><img src="assets/profile_pic.jpg" alt="">
       </div>
       <div class="header">
         <h1>Jessie Vela</h1>
@@ -20,9 +20,9 @@
         <div class="links">
           <a href="#">Resume</a>
           <ul>
-            <li>LinkedIn</li>
-            <li>Github</li>
-            <li>Projects</li>
+            <a href="https://www.linkedin.com/in/velajessie" target='_blank' rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.github.com/jessievela" target='_blank' rel="noopener noreferrer">Github</a>
+            <a href="#Projects">Projects</a>
           </ul>
         </div>
       </div>
@@ -30,13 +30,14 @@
   </div>
 
   <div class="projects-section">
+    <a name="Projects"></a>
     <h2>Projects</h2>
     <div class="projects">
-      <div class="project">
-        <img src="" alt="">
+      <div class="project active">
+        <img src="assets/photoshop.png" alt="">
         <p>Reddit Image gallery</p>
         <a href="#">See it in action</a>
-        <p>Built Using: React.js</p>
+        <p>Built Using: React.js, Redux, Router, HTML, CSS, Express</p>
       </div>
       <div class="project">
         <img src="assets/blackjack.png" alt="">
@@ -45,14 +46,14 @@
         <p>Built Using: React.js</p>
       </div>
       <div class="project">
-        <img src="" alt="">
+        <img src="assets/personal-site.png" alt="">
         <p>Personal Site</p>
         <a href="#">See it in action</a>
-        <p>Built Using: React.js</p>
+        <p>Built Using: HTML5, CSS, JavaScript</p>
       </div>
     </div>
   </div>
-
+  <script src="home.js"></script>
 </body>
 
 </html>
