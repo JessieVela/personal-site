@@ -107,10 +107,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
   }
 
   .profile-image {
-    width: 30%;
+    width: 40%;
   }
 }
