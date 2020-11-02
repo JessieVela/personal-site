@@ -9,6 +9,10 @@ a {
   color: rgb(163, 212, 255);
 }
 
+.dev-status {
+  color: red;
+}
+
 .headline {
   display: flex;
   height: 100vh;
@@ -81,6 +85,9 @@ a {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgba(74, 74, 74, 95%);
   width: 80%;
   padding: 10px;
@@ -112,5 +119,37 @@ a {
 
   .profile-image {
     width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+  }
+
+  .project * {
+    margin: 10px;
+  }
+
+  .project a {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .project h3 {
+    font-size: 1.7rem;
+  }
+
+  .project {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .project img {
+    object-fit: scale-down;
+    height: 350px;
   }
 }
